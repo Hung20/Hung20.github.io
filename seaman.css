@@ -1,0 +1,30 @@
+
+.bg{
+    background-color: #F3EDDA;
+}
+
+
+.i,.s,.m{
+    margin:80px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+h1{
+    border-radius: 8px;
+    background-color: rgb(158, 177, 214);
+    width:auto;
+    color:white;
+    font-size: 40px;
+    padding:5px;
+    width:120px;
+    text-align: center;
+    margin-left:60px;
+}
+a{
+    text-decoration: none;
+}
+
+h1:hover{
+    background-color: rgb(97, 130, 190);
+}
