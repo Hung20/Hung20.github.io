@@ -24,6 +24,7 @@
 /* Remove the space between the browser window and the body */
 body {
 	margin: 0;
+	font-family: Microsoft JhengHei;
 }
 /*連結設定*/
 a{
@@ -124,6 +125,7 @@ div.linear{
 }
 div.article{
 	margin: 0px 20px;
+	font-size: 1em;
 }
 .illa{
 	margin: 40px 20px 0px 0px;
@@ -178,7 +180,7 @@ footer{
 	background-color: #2F5186;
 	color: lightblue;
 	text-align: center;	
-	font-size: 12px;
+	font-size: 1em;
 }
 
 .footer-col{
@@ -203,5 +205,3 @@ footer a:hover{
 footer h4{
 	letter-spacing: 0.5em;
 }
- 
- 
