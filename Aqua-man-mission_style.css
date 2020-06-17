@@ -67,6 +67,23 @@ div.content{
 	border: 1px solid #EAC873;
 	border-left: 9px solid #ffd97a;
 }
+.miss-text h2{
+	font-weight: bolder;
+}
+.misson1 h4{
+	font-size: 20px;
+	font-weight: bold;
+}
+.misson1 p{
+	font-size: 18px;
+}
+.misson2 h4{
+	font-size: 20px;
+	font-weight: bold;
+}
+.misson2 p{
+	font-size: 18px;
+}
 .miss-photo{
 	background-color: darkorange;
 	position: relative;
