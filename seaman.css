@@ -28,3 +28,9 @@ a{
 h1:hover{
     background-color: rgb(97, 130, 190);
 }
+
+.o{
+        text-align:center;
+        display: inline-block;
+    
+}
