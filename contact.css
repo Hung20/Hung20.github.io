@@ -1,11 +1,25 @@
 .all{
-    height:500px;
     text-align: center;
     font-size:30px;
     position: relative;
-    top:30px;
-  
+    top:70px;
+    height:650px;
+    
 }
 .gm{
     font-size: 20px;
+   
 }
+.i{
+    width:30px;
+    margin-bottom: -10px;
+}
+
+hr{
+    border: 0;
+    height:3px;
+    width:200px;
+    background: #333;
+    background-image: linear-gradient(to right, rgb(148, 162, 184), rgb(52, 74, 99), rgb(148, 162, 184));
+}
+
