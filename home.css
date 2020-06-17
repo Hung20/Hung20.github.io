@@ -1,0 +1,81 @@
+.bg{
+    text-align: center;
+    background-color: #F3EDDA;
+    margin-top: 50px;
+}
+
+/*最新消息分割視窗*/
+.news{
+    width:300px;
+    height:350px;
+    margin:-40px 50px;
+    border-radius: 15px;
+    border-color: #F8BA93;
+    border-top-width:20px;
+    border-bottom-width:20px;
+    border-left-width:5px;
+    border-right-width:5px;
+    border-style:solid;
+}
+/*相關活動分割視窗*/
+.relat{
+    width:300px;
+    height:350px;
+    margin:-40px 50px;
+    border-radius: 15px;
+    border-color: #EAC873;
+    border-top-width:20px;
+    border-bottom-width:20px;
+    border-left-width:5px;
+    border-right-width:5px;
+    border-style:solid;
+}
+/*兩個分割視窗*/
+.frame{
+    position:relative;
+    left:-20px;
+    top:-120px;
+}
+.nw{
+    writing-mode:vertical-lr;
+    position:relative;
+    top:220px;
+    left:-30px;
+    background-color: #EDAB8A;
+    padding: 10px 5px;
+    border-radius: 3px;
+    color:rgb(63, 63, 63);
+}
+.ac{
+    writing-mode:vertical-lr;
+    position:relative;
+    top:220px;
+    left:-30px;
+    background-color: #E5B751;
+    padding: 10px 5px;
+    border-radius: 3px;
+    color:rgb(63, 63, 63);
+}
+.news-div{
+    display:inline-block;
+    position: relative;
+    margin:0px 60px;
+}
+.relat-div{
+    display:inline-block;
+    position: relative;
+    margin:0px -20px;
+}
+.img{
+    width:300px;
+    display:inline-block;
+    margin:auto;
+    
+}
+
+.bob{
+    width:50px;
+    position:relative;
+    top:200px;
+    left:-190px;
+}

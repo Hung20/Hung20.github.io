@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My grid definitions: divide into 10 columns*/
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}	
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+[class*="col-"] {
+	float: right;
+}
+
+/* Remove the space between the browser window and the body */
+body {
+	margin: 0;
+	background-color: #F3EDDA;
+}
+/*圓角設計*/
+.corner1{
+	border-radius: 20px;
+}
+.corner2{
+	border-radius: 5px;
+}
+/*排版*/
+.text-center{
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+/*標題區*/
+.area-title{
+	margin: 50px 0px;
+	padding: 10px;
+	text-align: center;
+	letter-spacing: 0.5em;
+	line-height: 3em;
+	color: #7f705c;
+}
+.back{
+	background-color: lightblue;
+	color: #734200;
+}
+.black{
+	color: red;
+}
+/*主要區域左右邊界*/
+div.content{
+	margin: 0px 100px 20px;
+}
+/*內容區*/
+.theme-text{
+	background-color: #C2D3E4;
+	display: inline-block;
+	padding: 5px 30px;
+	box-shadow: 4px 3px 0px 0px darkblue;
+}
+.reason{
+	background-color:  #9BAFC7;
+	margin: 0px 0px 10px;
+	padding: 10px 20px;
+	/*display: flex;
+	justify-content: space-around;*/
+}
+.ani-a{
+	margin: 0px 5% 10px 0px;
+}
+.ani-a:hover{
+	border: 5px dashed blue;
+	border-radius: 5px;
+}
+/*回上頁按鈕*/
+a{
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	color: black;
+}
+.button {
+	background-color: #FFE249;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: solid #FFE249;
+	cursor: pointer;
+	font-size: 16px;
+	transition-duration: 0.2s;
+	color: black;
+	letter-spacing: 0.2em;
+	margin: 0px 100px 50px 0px;
+}
+.button:hover{
+	background-color: #FBE0CF;
+	border: solid #FFBD00;
+	color: black;
+	text-shadow: 0.5px 0.5px whitesmoke;
+}
