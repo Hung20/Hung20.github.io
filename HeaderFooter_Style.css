@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My grid definitions: divide into 10 columns*/
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}	
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+[class*="col-"] {
+	float: right;
+}
+
+/* Remove the space between the browser window and the body */
+body {
+	margin: 0px;
+	background-color: #F3EDDA;
+	font-family: Microsoft JhengHei;
+}
+/*-------------下面都是header--------------------*/
+/*圓角設計*/
+.cornerB{
+	border-radius: 20px;
+}
+.cornerL{
+	border-radius: 5px;
+}
+
+/*連結的樣式*/
+.nav1 a:link{
+	color: lightblue;
+	text-decoration: none;
+}
+.nav1 a:visited{
+	color: lightblue;
+	text-decoration: none;
+}
+.nav1 a:hover{
+	text-decoration: none;
+	border: double antiquewhite;
+	color: antiquewhite;
+	border-radius: 5px;
+}
+nav a:link{
+	color: black;
+	text-decoration: none;
+}
+nav a:visited{
+	color: black;
+	text-decoration: none;
+}
+nav a:hover{
+	text-decoration: none;
+	color: black;
+	border-radius: 5px;
+	text-shadow: 2px 2px 2px white;
+}
+/*最上面導航欄位*/
+.top-nav{
+	background-color: #2F5186;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px 10px;
+	position: relative;
+}
+	/*左上*/
+.logo {
+	vertical-align: middle;
+	margin: 5px 0px 5px 30px;
+}
+.logo:hover{
+	border: 1px solid whitesmoke;
+}
+	/*右上*/
+.nav1{
+	text-align: center;
+	margin: auto;
+	margin-right: 5px;
+}
+.nav1 span{
+	padding: 20px;
+}
+
+/*--Banner圖片*/
+.pagebanner{
+	background-color: #2F5186;
+	position: relative;
+}
+.seawead{
+	margin-bottom: 3%;
+}
+/*--分頁標籤*/
+
+.container{
+	position: absolute;
+	bottom: 0px;
+}
+div.navbutton{
+	margin: 10px;
+	padding: 15px 5px 10px 5px;
+	border: solid white 1px;
+	border-radius: 30px 30px 5px 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-weight: bolder;
+	letter-spacing: 0.3em;
+}
+.navcolor1{
+	background-color: #F8BA93;
+}
+.navcolor2{
+	background-color: #EFD99A;
+}
+div.middle{
+	display: flex;
+	justify-content: space-around;
+	font-size: 120%;
+}
+.middle img{
+	vertical-align: middle;
+}
+.now{
+	box-shadow: 5px 5px 1px whitesmoke;
+}
+/*-------------上面都是header--------------------*/
+
+/*-------------最底下footer--------------------*/
+footer{
+	padding: 1em;
+	background-color: #2F5186;
+	color: lightblue;
+	text-align: center;	
+	font-size: 12px;
+}
+
+.footer-col{
+	display: flex;
+	justify-content: center;
+}
+footer a:link{
+	color: lightblue;
+	text-decoration: none;
+}
+footer a:visited{
+	color: lightblue;
+}
+footer a:hover{
+	color: antiquewhite;
+	text-decoration: underline;
+}
+/*版權的logo跟文字水平置中對齊*/
+.footer img{
+	 vertical-align: middle;
+}
+footer h4{
+	letter-spacing: 0.5em;
+}
+ 

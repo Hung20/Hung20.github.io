@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}	
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+[class*="col-"] {
+	float: right;
+}
+
+/* Remove the space between the browser window and the body */
+body {
+	margin: 0;
+	background-color: #F3EDDA;
+}
+/*圓角設計*/
+.corner1{
+	border-radius: 20px;
+}
+.corner2{
+	border-radius: 5px;
+}
+
+.content{
+	background-color: #F3EDDA;
+	margin: 50px 150px 40px;
+	float: right;
+}
+.rrr{
+	
+}
+.pic{
+	/*background-color: #419BE8;*/
+	display: flex;
+}
+
+figure img{
+	display: block;
+	margin-top: 10%;
+	box-shadow: 1px 1px 1px 1px black;
+}
+.text{
+	background-color: whitesmoke;
+	padding: 10px 0px;
+}
+.box{
+	padding: 10px 30px;
+}
+.box h2{
+	letter-spacing: 0.3em;
+}
+p{
+	line-height: 3em;
+	padding: 1em;
+}
+strong{
+	color: dodgerblue;
+}
+/*回上頁按鈕*/
+
+a:visited{
+	color: black;
+}
+
+.button {
+	background-color: #FFE249;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px 0px 50px 20px;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: solid #FFE249;
+	cursor: pointer;
+	font-size: 16px;
+	transition-duration: 0.2s;
+	color: black;
+	letter-spacing: 0.2em;
+}
+.button:hover{
+	background-color: #FBE0CF;
+	border: solid #FFBD00;
+	color: black;
+	text-shadow: 0.5px 0.5px whitesmoke;
+}

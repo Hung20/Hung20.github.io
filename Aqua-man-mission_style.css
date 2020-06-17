@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My grid definitions: divide into 10 columns*/
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}	
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
+[class*="col-"] {
+	float: right;
+}
+
+/* Remove the space between the browser window and the body */
+body {
+	margin: 0;
+	background-color: #F3EDDA;
+}
+/*圓角設計*/
+.corner1{
+	border-radius: 20px;
+}
+.corner2{
+	border-radius: 5px;
+}
+
+.text-center{
+	text-align: center;
+	display: block;
+	margin: auto;
+}
+/*標題區*/
+.area-title{
+	margin: 50px 0px;
+	padding: 10px;
+	text-align: center;
+	color:  #7f705c;
+	letter-spacing: 0.5em;
+	line-height: 3em;
+}
+/*主要區域左右邊界*/
+div.content{
+	margin: 0px 100px 50px;
+}
+.m1{
+	background-color: burlywood;
+}
+.misson1{
+	background-color: whitesmoke;
+	padding: 20px 40px;
+	border: 1px solid #ffd97a;
+	border-left: 9px solid #F8BA93;
+}
+.misson2{
+	background-color: whitesmoke;
+	padding: 20px 40px;
+	border: 1px solid #EAC873;
+	border-left: 9px solid #ffd97a;
+}
+.miss-photo{
+	background-color: darkorange;
+	position: relative;
+}
+.miss-text{
+	padding: 0px 0px 0px 0px;
+}
+/*貝殼排版*/
+.shell{
+	float: left;
+}
+/*內容區*/
+.content h2{
+	font-weight: bolder;
+	background-color: lightskyblue;
+	border-radius: 5px;
+	padding: 5px;
+	letter-spacing: 0.2em;
+}
+.content h4{
+	border-top: 2px dashed lightblue;
+	padding-top: 10px;
+}
+.content p{
+	text-indent: 2em;
+	line-height: 2em;
+}
+.theme-text{
+	background-color: aquamarine;
+	display: inline-block;
+	padding: 5px 30px;
+}
+.reason{
+	background-color: dodgerblue;
+	margin: 0px 0px 20px;
+	padding: 10px 20px;
+	/*display: flex;
+	justify-content: space-around;*/
+}
+.ani-a{
+	margin: 0px 5% 10px 0px;
+}
+
+/*回上頁按鈕*/
+.bottom{
+	margin: 30px 0px;
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: black;
+}
+.button a{
+	color: black;
+}
+.button {
+	background-color: #FFE249;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: solid #FFE249;
+	cursor: pointer;
+	font-size: 16px;
+	transition-duration: 0.2s;
+	color: black;
+	letter-spacing: 0.2em;
+	margin: 10px 0px 0px 50px;
+}
+.button:hover{
+	background-color: #FBE0CF;
+	border: solid #FFBD00;
+	color: black;
+	text-shadow: 0.5px 0.5px whitesmoke;
+}
+.button-a {
+	background-color: oldlace;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: solid #F8BA93;
+	cursor: pointer;
+	font-size: 16px;
+	transition-duration: 0.2s;
+	color: black;
+	letter-spacing: 0.2em;
+	margin: 10px 0px 0px 50px;
+}
+.button-a:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 5px 5px 0px #F8BA93;
+	text-shadow: 0px 0.2px orange;
+}
+.button-b {
+	background-color: oldlace;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 5px;
+	border: solid #ffd97a;
+	cursor: pointer;
+	font-size: 16px;
+	transition-duration: 0.2s;
+	color: black;
+	letter-spacing: 0.2em;
+	margin: 10px 0px 0px 50px;
+}
+.button-b:hover{
+	background-color: white;
+	color: black;
+	box-shadow: 5px 5px 0px #ffd97a;
+	text-shadow: 0px 0.2px gold;
+}
